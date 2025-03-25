@@ -1,1 +1,28 @@
-/*  your css code here. If applicable */
+*{
+	font-family:arial;sans-serif;
+}
+h1{
+	text-align:center;
+}
+.form-group{
+	display:flex;
+	flex-direction:column;
+	gap:2px;
+}
+.form-group>input{
+	height:25px;
+}
+button{
+	width:75px;
+	height:30px;
+	border-radius:5px;
+	border:none;
+	background-color:lightblue;
+}
+.table-striped{
+	margin-top:10px;
+	padding:10px;
+	border:none;
+	border-bottom:3px solid;
+	width:98vw
+}
